@@ -1,0 +1,25 @@
+{
+  "name": "ts-make",
+  "version": "0.0.0",
+  "description": "TypeScript based Make",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tsm": "./cli.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/callsite": "^1.0.30",
+    "@types/shelljs": "^0.8.1",
+    "callsite": "^1.0.0",
+    "command-line-args": "^5.0.2",
+    "fast-glob": "^2.2.6",
+    "shelljs": "^0.8.3",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4",
+    "zone.js": "^0.8.29"
+  }
+}
