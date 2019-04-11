@@ -1,0 +1,6 @@
+- The API is pretty well defined now, maybe a few changes to make task outputs more flexible
+- Create a task scheduler to remove the risk around forgetting `await`s
+- Create a proper test framework (with coverage) then start testing in TDD fashion:
+  - Add a `clear` function to reset all global state
+  - Make sure the tests run in sequence, not in parallel
+  - Create a fixture project

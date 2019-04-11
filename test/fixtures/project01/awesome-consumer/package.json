@@ -1,0 +1,17 @@
+{
+  "name": "awesome-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-package": "file:../awesome-package/build/awesome-package-0.0.0.tgz"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  }
+}

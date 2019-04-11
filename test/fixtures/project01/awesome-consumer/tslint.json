@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "typestrict"
+    ],
+    "rules": {
+        "no-unused-variable": false,
+        "member-access": true,
+        "semicolon": true
+    }
+}

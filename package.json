@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "TypeScript based Make",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -19,6 +21,7 @@
     "fast-glob": "^2.2.6",
     "shelljs": "^0.8.3",
     "ts-node": "^8.0.1",
+    "tslib": "^1.9.3",
     "typescript": "^3.2.4",
     "zone.js": "^0.8.29"
   }

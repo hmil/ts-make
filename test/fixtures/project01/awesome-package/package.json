@@ -1,0 +1,20 @@
+{
+  "name": "awesome-package",
+  "version": "0.0.0",
+  "description": "Some cool package",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Cena",
+  "license": "MIT",
+  "files": [
+    "build/*.js",
+    "build/*.d.ts"
+  ],
+  "devDependencies": {
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  }
+}

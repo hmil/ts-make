@@ -6,7 +6,16 @@ if (!task) {
 }
 const tsmake = require(__dirname);
 const path = require('path');
-require('ts-node').register()
+
+require('./build/nodePath.js').addToPath(path.join(__dirname, 'node_modules'));
+require('module').Module._initPaths();
+require('ts-node').register({
+    compilerOptions: {
+        lib: [
+            'es2015'
+        ]
+    }
+});
 require(path.join(process.cwd(), 'make.ts'));
 
 tsmake.run(task);
